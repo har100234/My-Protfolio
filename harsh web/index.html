@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional CSS file for styling -->
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <!-- Add any other content you want for the home section -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+            <img src="DSC_0120.png" alt="Profile Picture">
+            <p>
+                Hi, My name is Harsh Malviya and I am a mechanical engineer. I possess a solid foundation in mechanical
+                engineering principles, including design, analysis, and manufacturing. My expertise lies in developing
+                innovative solutions for mechanical systems and optimizing their performance. I also have a deep
+                interest in web development, designing and for that I have some knowledge of some computer languages
+                like HTML, CSS, PYTHON etc.
+            </p>
+            <a href="HARSH MALVIYA (2).pdf" download>Download Resume</a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <p> <h2>Description of Project 1.</h2> 
+                •	Introduction: The portfolio website project aims to create a professional online presence to showcase personal projects, skills, and achievements. The website provides an overview of the individual's background, portfolio section for displaying projects, an about section to introduce themselves, and a contact section for users to get in touch.
+                •	Project Scope: The project includes the development of a responsive portfolio website using HTML, CSS, and JavaScript. The website will have the following key sections:                
+            </p>
+            <a href="protfolio project.docx">View Project</a>
+        </div>
+    </section>
+
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        
+        <div class="contact-info">
+          <p><strong>Email:</strong> harshmalviya1732002@gmail.com</p>
+          <p><strong>Phone:</strong> +19 911 1357 593</p>
+        </div>
+        
+        <form id="contact-form" action="submit-form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+      
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
